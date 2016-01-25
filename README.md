@@ -1,5 +1,5 @@
 # node-png2lwxl
-Node version of pbm2lwxl using png as input format. It takes a png as input file and spits out prn file which can be sent to your label printer.
+Node version of pbm2lwxl using png as input format. It takes a png as input file and spits out prn-file which can be sent to your label printer.
 
 It is based pbm2lwxl.c written by Mark Whitis
 

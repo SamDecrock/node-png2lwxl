@@ -1,7 +1,7 @@
 {
   "name": "png2lwxl",
-  "description": "png2lwxlis a node.js library to convert png's to a label printer's raw data, based on pbm2lwxl",
-  "version": "0.0.1",
+  "description": "png2lwxl is a node.js library to convert png's to a label printer's raw data",
+  "version": "0.0.2",
   "author": {
     "name": "Sam Decrock",
     "url": "https://github.com/SamDecrock/"
