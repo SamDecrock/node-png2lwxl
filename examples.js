@@ -2,11 +2,14 @@
 
 
 var png2lwxl = require('./lib/png2lwxl');
-fs = require('fs');
+var fs = require('fs');
 
 
 var imgPath = __dirname + '/test.png';
-png2lwxl.convert(imgPath, false, function (err, printData) {
+png2lwxl.convert(imgPath, {
+	landscape: true,          // rotates image 90 degrees
+	blackwhiteThreshold: 110  // 0-256: the higher the value, the more pixels will be treated as black
+}, function (err, printData) {
 	if(err) return console.log(err);
 	console.log(printData);
 
